@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="css/styles.css">
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+             
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">Tools</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="sass.html">Home</a></li>
+            <li><a href="badges.html">Tools</a></li>
+            <li><a href="collapsible.html">Blog</a></li>
+          </ul>
+        </div>
+      </nav>
+    <div class="age-box">
+        <h3>Age Calculator</h1>
+        <div class="dob-section">
+            <label for="dob">Enter your Date of Birth:</label>
+            <input type="date" id="dob" required>
+            <button id="calculateAgeBtn">Calculate Age</button>
+            <p id="ageResult" class="result"></p>
+        </div>
+        <div class="date-range-section">
+            <h4>Calculate Age Between a Range</h2>
+            <label for="startDate">Start Date:</label>
+            <input type="date" id="startDate" required>
+            <label for="endDate">End Date:</label>
+            <input type="date" id="endDate" required>
+            <button id="calculateRangeBtn">Calculate Age Range</button>
+            <p id="rangeResult" class="result"></p>
+
+        </div>
+    </div>
+    <footer class="page-footer #66bb6a green lighten-1">
+        <div class="footer-copyright">
+          <div class="container">
+          © 2025 Copyright 
+          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+          </div>
+        </div>
+      </footer>
+          
+    <script src="js/script.js"></script>
+</body>
+</html>

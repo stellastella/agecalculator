@@ -1,0 +1,17 @@
+{
+  "name": "age-calculator-app",
+  "version": "1.0.0",
+  "description": "A simple web application to calculate age based on date of birth and between two specific dates.",
+  "main": "src/js/script.js",
+  "scripts": {
+    "start": "live-server src"
+  },
+  "keywords": [
+    "age",
+    "calculator",
+    "web",
+    "application"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

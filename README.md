@@ -6,12 +6,11 @@ This project is an Age Calculator web application that allows users to calculate
 
 ```
 age-calculator-app
-├── src
 │   ├── css
 │   │   └── styles.css
 │   ├── js
 │   │   └── script.js
-│   └── index.html
+└── index.html
 ├── package.json
 └── README.md
 ```

@@ -5,7 +5,7 @@ body {
     /* padding: 20px; */
 }
 nav{
-    background-color: #66bb6a !important;
+    background-color: #6080a8 !important;
 }
 .nav-wrapper {
     margin-left: 10%;
@@ -43,7 +43,7 @@ input[type="text"] {
 button {
     width: 100%;
     padding: 10px;
-    background-color: #28a745;
+    background-color: #9196f1;
     color: white;
     border: none;
     border-radius: 4px;
@@ -52,13 +52,13 @@ button {
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #9196f1;
 }
 
 .result {
     margin-top: 20px;
     padding: 10px;
-    background-color: #e9ecef;
+    background-color: #d5d6d6;
     border-radius: 4px;
     text-align: center;
     color: #333;
